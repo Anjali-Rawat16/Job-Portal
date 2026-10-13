@@ -50,4 +50,4 @@ Jobs are fetched from **RapidAPI (LinkedIn Jobs API)** using environment variabl
 * Real authentication (JWT)
 * Employer job posting system
 * Admin analytics dashboard
-* Save jobs & user profiles
+* save jobs & profiles
