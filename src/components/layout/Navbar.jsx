@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/careerhublogo.png"; 
+import logo from "../../assets/Careerhublogo.png"; 
 
 const Navbar = () => {
   const activeClass = "text-[#593c8f] border-b-2 border-[#593c8f] pb-1";
