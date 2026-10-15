@@ -1,53 +1,64 @@
-# Career-hub 🚀  
-A modern job portal web application built with React that helps users search and apply for jobs across India.
+# Career-hub 🚀
+
+A modern job portal web application built with React that helps users explore remote job opportunities through a clean and responsive interface.
 
 ---
 
 ## 🔥 Features
 
 ### 👩‍💼 Job Seekers
-- Search jobs by **job title** and **location**
-- View **featured jobs**
-- Apply directly using external job links
-- Responsive and clean UI
+- Browse job listings fetched from an external jobs API.
+- Search jobs by job title and location (if implemented).
+- View featured jobs (if implemented).
+- Visit original job application links.
+- Responsive and clean user interface.
 
-### 🏢 Employers (UI only)
-- Employers page for future job posting features
-- Placeholder UI ready for backend integration
+### 🏢 Employers (UI Only)
+- Employers page for future job posting features.
+- Placeholder UI ready for backend integration.
 
-### 🔐 Authentication (Frontend only)
-- Login page
-- Register page
-- Show/Hide password functionality
+### 🔐 Authentication (Frontend Only)
+- Login page.
+- Register page.
+- Show/hide password functionality.
 
 ### 🛠 Admin Panel (Dummy)
-- Admin dashboard UI
-- Can be extended later with backend support
+- Admin dashboard UI.
+- Can be extended with backend support.
 
 ---
 
 ## 🧑‍💻 Tech Stack
 
-- **Frontend:** React.js, React Router
+- **Frontend:** React.js
+- **Routing:** React Router
 - **State Management:** Context API
 - **Styling:** Tailwind CSS
 - **Icons:** Heroicons, React Icons
-- **API:** RapidAPI Jobs API
+- **API:** Jobicy Remote Jobs API
 - **Build Tool:** Vite
 
 ---
 
 ## 🌍 Job Data Source
 
-Jobs are fetched from **RapidAPI (LinkedIn Jobs API)** using environment variables.
+Job listings are fetched from the **Jobicy Remote Jobs API**.
 
-> ⚠️ API key is stored securely using `.env` and is **not pushed to GitHub**.
+- API endpoint: https://jobicy.com/api/v2/remote-jobs?count=50
+- No RapidAPI key is required for this endpoint.
+- Job availability and locations depend on the data returned by the API.
+- Application links direct users to the original job listing.
+
+**Note:** This project currently uses an external API for job listings. Authentication, employer job posting, and admin functionality are frontend demonstrations and do not provide full backend functionality.
 
 ---
 
-🚧 Future Improvements
-* Backend integration (Node.js + MongoDB)
-* Real authentication (JWT)
-* Employer job posting system
-* Admin analytics dashboard
-* save jobs & profiles
+## 🚧 Future Improvements
+
+- Backend integration using Node.js and MongoDB.
+- Secure authentication using JWT.
+- Employer job posting system.
+- Admin analytics dashboard.
+- Saved jobs and user profiles.
+- Improved job search and filtering.
+- Loading, error, and empty-state handling.
